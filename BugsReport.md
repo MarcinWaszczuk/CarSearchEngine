@@ -57,7 +57,7 @@
     User should be presented with notification for incorrect data in Name and Surname as well as should not be redirected.
 
 
-#### Recognising this is an assignment in order to not make anybody have to go so much of reading below is a list of other bugs as buletpoints without all the 'steps to replicate, results and other' sections which are standard for the bug tracking task templates:
+#### Recognising this is an assignment, in order to not make anybody have to go through so much reading, below is a list of other bugs as bulletpoints without all the 'steps to replicate, results and other' sections considered standard for the bug tracking task templates:
 BUGS:
 - Germainy instead of Germany
 - No polish letters - unicode issue
