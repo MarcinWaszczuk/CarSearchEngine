@@ -1,6 +1,6 @@
 # Tivix manual test bug reports
 
-[FE/BE] - Filtering by country does not update available city lists
+[FE] - Filtering by country does not update available city lists
     
     Description:
     Selecting a country does not drill down the cities list in the dropdown
@@ -34,7 +34,7 @@
     Expected Result:
     Only Toyota Aygo models should be listed
 
-[FE/BE] - Name and Surname allow for numbers only
+[FE] - Name and Surname allow for numbers only
     
     Description:
     User is able to provide name and surname as numbers only
