@@ -1,6 +1,6 @@
 # Tivix manual test bug reports
 
-[FE] - Filtering by country does not update available city lists
+[FE] - Search Form - Filtering by country does not update available city lists
     
     Description:
     Selecting a country does not drill down the cities list in the dropdown
@@ -17,7 +17,7 @@
     Only France based cities visible in dropdown
 
 
-[FE/BE] - Filtering by model does not take effect
+[FE/BE] - Search Engine - Filtering by model does not take effect
     
     Description:
     Selecting a model does not drill down the cars list in the table
@@ -34,7 +34,7 @@
     Expected Result:
     Only Toyota Aygo models should be listed
 
-[FE] - Name and Surname allow for numbers only
+[FE] - Personal Detail Form - Name and Surname allow for numbers only
     
     Description:
     User is able to provide name and surname as numbers only
