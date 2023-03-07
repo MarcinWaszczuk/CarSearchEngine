@@ -17,7 +17,7 @@ Clone the project (first make sure you have correct repository access rights - w
 Go to the project directory
 
 ```bash
-  cd tivixTask
+  cd CarSearchEngine
 ```
 
 Install dependencies
