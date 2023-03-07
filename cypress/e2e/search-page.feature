@@ -1,6 +1,6 @@
 Feature: Cars search
 
-  Scenario: User must be able to filter cars by model
+  Scenario Outline: User must be able to filter cars by model
     Given I visit homepage
     When I filter cars list by "<model>" model filter using valid dates
     Then I should see the table with only particular "<model>" cars
