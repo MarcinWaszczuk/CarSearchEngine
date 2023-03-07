@@ -62,7 +62,7 @@ BUGS:
 - Germainy instead of Germany
 - No polish letters - unicode issue
 - Pickup dates may be set to past dates
-- DJANGO debug mode enabled - if thats end user env then it is a big not
+- DJANGO debug mode enabled - if thats end user env then it is a big no no
 - Misalignments - pages not fitting window - here to reflect on designs if available
 - .card-header not matching width of card
 - Too big load error on API level sometimes reproducable upon clicking rent
@@ -72,7 +72,7 @@ BUGS:
 - console on homepage cannot fetch the latest data - this is hardcoded as <script>
         console.error('Cannot fetch latest data')
     </script> in the source
-- Something feels odd about <span class="sr-only">(current)</span>
+- Something feels odd about "class="sr-only">(current)" element
 - There is no way for Ursus C360 to be available to rent in central berlin - Umwelt zone - therefore someone should review correctness of data.
 - DJANGO Admin panel after trying admin - admin login - password has been blocked by MAC defender - something tells me that panel has admin admin credentials but no further checking - don't want to fight with my defender - its really resistant.
 - tivix lab died on me at 21:25 - check logs, server is dying
