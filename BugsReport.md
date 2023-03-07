@@ -6,7 +6,7 @@
     Selecting a country does not drill down the cities list in the dropdown
 
     Steps to replicate:
-    1. Visit: 
+    1. Visit: http://qalab.pl.tivixlabs.com/
     2. Select country of France
     3. Open dropdown for City Filtering
 
@@ -23,7 +23,7 @@
     Selecting a model does not drill down the cars list in the table
 
     Steps to replicate:
-    1. Visit: 
+    1. Visit: http://qalab.pl.tivixlabs.com/
     2. Select any model (prefferable Toyota Aygo for low maintenance costs)
     3. Provide any valid dates for pickup and dropoff dates
     4. Click search button
@@ -40,7 +40,7 @@
     User is able to provide name and surname as numbers only
 
     Steps to replicate:
-    1. Visit: 
+    1. Visit: http://qalab.pl.tivixlabs.com/
     2. Select any model (prefferable Toyota Aygo for low maintenance costs)
     3. Provide any valid dates for pickup and dropoff dates
     4. Click search button
