@@ -71,7 +71,7 @@ BUGS:
 - console on rent personal details apparently likes panckaces - lubie placki!!! in console visible - hardcoded as next one
 - console on homepage cannot fetch the latest data - this is hardcoded as <script>
         console.error('Cannot fetch latest data')
-    </script> in the source
+    </script> in the source (also in very not where script should be place)
 - Something feels odd about "class="sr-only">(current)" element
 - There is no way for Ursus C360 to be available to rent in central berlin - Umwelt zone - therefore someone should review correctness of data.
 - DJANGO Admin panel after trying admin - admin login - password has been blocked by MAC defender - something tells me that panel has admin admin credentials but no further checking - don't want to fight with my defender - its really resistant.
