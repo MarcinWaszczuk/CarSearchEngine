@@ -1,0 +1,37 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Cypress framework created as an assignment for tivix recruitment",
+  "main": "index.js",
+  "scripts": {
+    "test": "tivix-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinWaszczuk/tivixTask.git"
+  },
+  "keywords": [
+    "tests",
+    "framework",
+    "cypress",
+    "javascript",
+    "ui",
+    "e2e",
+    "bdd",
+    "gherkin",
+    "cucumber"
+  ],
+  "author": "Marcin Waszczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinWaszczuk/tivixTask/issues"
+  },
+  "homepage": "https://github.com/MarcinWaszczuk/tivixTask#readme",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "cypress": "^12.7.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.3.0"
+  }
+}
