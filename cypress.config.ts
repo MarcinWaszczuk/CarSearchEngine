@@ -1,30 +1,39 @@
-import { defineConfig } from "cypress";
-import createBundler from "@bahmutov/cypress-esbuild-preprocessor";
-import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-preprocessor";
-import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild";
+import { defineConfig } from "cypress"
+import createBundler from "@bahmutov/cypress-esbuild-preprocessor"
+import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-preprocessor"
+import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild"
 
 async function setupNodeEvents(
   on: Cypress.PluginEvents,
   config: Cypress.PluginConfigOptions
 ): Promise<Cypress.PluginConfigOptions> {
   // This is required for the preprocessor to be able to generate JSON reports after each run, and more,
-  await addCucumberPreprocessorPlugin(on, config);
-
+  await addCucumberPreprocessorPlugin(on, config)
+  require("cypress-mochawesome-reporter/plugin")(on)
   on(
     "file:preprocessor",
     createBundler({
       plugins: [createEsbuildPlugin(config)],
     })
-  );
+  )
 
   // Make sure to return the config object as it might have been modified by the plugin.
-  return config;
+  return config
 }
 
 export default defineConfig({
   e2e: {
+    reporter: "cypress-mochawesome-reporter",
+    reporterOptions: {
+      charts: true,
+      reportPageTitle: "Cypress Inline Reporter",
+      embeddedScreenshots: true,
+      inlineAssets: true, //Adds the asserts inline
+    },
+    
+    video: false,
     baseUrl: "http://qalab.pl.tivixlabs.com/",
     specPattern: "**/*.feature",
     setupNodeEvents,
   },
-});
+})
