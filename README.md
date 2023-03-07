@@ -8,10 +8,10 @@ It complies of following stack:
 
 ## Run Locally
 
-Clone the project (first make sure you have correct repository access rights)
+Clone the project (first make sure you have correct repository access rights - well its public so I assure its fine by now)
 
 ```bash
-  git clone git@github.com:MarcinWaszczuk/tivixTask.git
+  git clone git@github.com:MarcinWaszczuk/CarSearchEngine
 ```
 
 Go to the project directory
