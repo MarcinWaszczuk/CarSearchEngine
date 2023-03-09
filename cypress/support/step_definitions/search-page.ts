@@ -8,7 +8,7 @@ Given("I visit homepage", () => {
 
 When(
   "I filter cars list by {string} model filter using valid dates",
-  (model: sa) => {
+  (model: string) => {
     search.fillModel(model)
     search.fillPickupDate("2023-05-05")
     search.fillDropOffDate("2023-06-05")
