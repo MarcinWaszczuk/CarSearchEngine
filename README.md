@@ -31,10 +31,16 @@ Next up please make sure the cypress.config.ts has correct ```baseUrl``` variabl
     
 ## Running Tests
 
-To run tests, run the following command
+To run tests without GUI, run the following command
 
 ```bash
-  npm run test
+  npm run test-headless
+```
+
+To run tests with GUI, run the following command
+
+```bash
+  npm run test-runner
 ```
 
 This command will generate an HTML report within reports/ folder at the end of the test run. From here you can review the current state of application.

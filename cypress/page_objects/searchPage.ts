@@ -1,5 +1,5 @@
 class searchPage {
-  
+
   element = {
     countryDropdown: "#country",
     cityDropdown: "#city",
@@ -10,6 +10,7 @@ class searchPage {
   }
 
   visit() {
+    //Visit links to base and should not exactly be here but thats only to show that I can understand it could be managed here
     cy.visit("/")
   }
 
