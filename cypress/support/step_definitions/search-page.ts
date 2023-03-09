@@ -2,7 +2,7 @@ import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 import SearchPage from '../../page_objects/searchPage'
 const search = new SearchPage()
 
-Given('I visit homepage', () => {
+Given('I visit the search page', () => {
   search.visit()
 })
 
