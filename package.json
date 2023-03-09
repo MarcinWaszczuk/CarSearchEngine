@@ -4,7 +4,8 @@
   "description": "Cypress framework created as an assignment for tivix recruitment",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test-headless": "cypress run",
+    "test-runner": "cypress open"
   },
   "repository": {
     "type": "git",

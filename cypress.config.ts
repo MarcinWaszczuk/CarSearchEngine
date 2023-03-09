@@ -30,7 +30,7 @@ export default defineConfig({
       embeddedScreenshots: true,
       inlineAssets: true, //Adds the asserts inline
     },
-    
+
     video: false,
     baseUrl: "http://qalab.pl.tivixlabs.com/",
     specPattern: "**/*.feature",
